@@ -1,0 +1,1 @@
+(function(){var t,n;n=function(){var t,n,i,r,o;return r=".grid-container",t=$(r),i=$(".nav-inner"),n=t.isotope({itemSelector:".grid",masonry:{gutter:5,layoutMode:"fitColumns"}}),o=function(){return console.log(i),i.on("click","li",function(){var t;return t=$(this).attr("data-filter"),n.isotope({filter:t})})},{init:function(){return o()}}},t=(new n).init()}).call(this);

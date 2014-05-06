@@ -1,0 +1,1 @@
+(function(){var n,t;n=function(){var n,t,o,r;return n=$("nav"),o=n.offset().top,r=function(){var t;return t=$(window).scrollTop(),t>=o?n.addClass("fixed"):n.removeClass("fixed")},t=function(){return $(document).on("scroll",function(){return r()})},{init:t}},t=(new n).init()}).call(this);

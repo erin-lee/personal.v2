@@ -1,0 +1,1 @@
+(function(){var n,i;n=function(){var n,i,o,r;return n=$("body"),i=n.find("#logo"),r=function(){return $(window).on("scroll",function(){return o()})},o=function(){var n;return n=window.scrollY,i.css({marginTop:""+n/1+"px",opacity:1-n/250})},{init:r}},i=(new n).init()}).call(this);
